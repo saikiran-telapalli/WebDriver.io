@@ -1,0 +1,33 @@
+{
+  "name": "uiautomation",
+  "version": "1.0.0",
+  "description": "moolya automation started",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "saikiran",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "browser": "^0.2.6",
+    "by": "^0.2.3",
+    "client": "0.0.1",
+    "describe": "^1.2.0",
+    "faker": "^4.1.0",
+    "helper": "0.0.13",
+    "jquery": "^3.3.1",
+    "keys": "^0.1.2",
+    "mocha": "^5.0.0",
+    "save": "^2.3.2",
+    "selenium-standalone": "^6.12.0",
+    "should": "^13.2.1",
+    "webdriver": "0.0.4",
+    "webdriverio": "^4.10.1"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.3"
+  }
+}
